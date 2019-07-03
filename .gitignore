@@ -8,3 +8,7 @@ resources/
 
 # Node
 node_modules/
+
+# Local scripts
+update-fork.sh
+
