@@ -81,7 +81,7 @@ article {
 }
 
 .dark .text-muted {
-  color: rgba(255,255,255,0.54);
+  color: rgba(255,255,255,0.54) !important;
 }
 
 .article-metadata {
@@ -116,6 +116,10 @@ article .article-metadata {
 
 .article-metadata a:hover {
   color: $sta-primary;
+}
+
+.article-categories {
+  white-space: nowrap; /* Keep category icon on same line as category links, otherwise context lost. */
 }
 
 .middot-divider {
